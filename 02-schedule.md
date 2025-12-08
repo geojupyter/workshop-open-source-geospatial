@@ -7,9 +7,11 @@ These materials are under development and subject to change all the way until
 AGU!
 :::
 
-## 🍽️ Breakfast!
+## 🍽️ Breakfast! (8:00-9:00)
 
 Breakfast will be provided in the room.
+
+Vegetarian options will be available and all ingredients will be listed.
 
 
 ## 🌅 Morning (8:30 - 12:00)
@@ -27,6 +29,8 @@ Breakfast will be provided in the room.
 ## 🍽️ Lunch! (12:00 - 1:30)
 
 Lunch will be provided in the room.
+
+Vegetarian options will be available and all ingredients will be listed.
 
 
 ## 🌇 Afternoon (1:30 - 5:00)
