@@ -156,10 +156,12 @@ process.
 ::::::{hint} Joining late? You may need to clone the workshop repository
 :class: dropdown
 
-If you're joining late, you may have missed a prior instruction to clone the workshop
-website and set up GitHub authentication.
+If you're joining late, you may have missed a prior instruction to start your CryoCloud server,
+clone the workshop website and set up GitHub authentication.
 
-Open a terminal in your CryoCloud JupyterLab server:
+To start your CryoCloud server, visit the reference section [](../../reference/01-starting-your-server.md).
+
+To clone the workshop repository, open a terminal in your CryoCloud JupyterLab server:
 
 ```bash
 cd  # Move to your home directory
@@ -180,7 +182,7 @@ Resolving deltas: 100% (229/229), done.
 ```
 :::
 
-**You'll need to setup GitHub authentication to push to GitHub**, which is required to
+**Finally, you'll need to setup GitHub authentication to push to GitHub**, which is required to
 complete this module.
 Please follow the instructions at [](../../reference/03-gh-auth.md).
 ::::::
