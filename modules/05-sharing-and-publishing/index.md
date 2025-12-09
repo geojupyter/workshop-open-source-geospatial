@@ -268,7 +268,7 @@ A "Quick setup" section includes a URL you can copy.
 
 #### Clone your repository
 
-From your repository homepage's "Quick start" menu, select "HTTPS", then copy the URL.
+From your repository homepage's "Quick setup" menu, select "HTTPS", then copy the URL.
 
 On your JupyterHub server, open a new terminal.
 
