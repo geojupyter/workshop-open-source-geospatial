@@ -2,7 +2,7 @@
 
 ## [Fernando Perez](https://fernandoperez.org/)
 
-**Faculty Director @ [Schmidt Center for Data Science and Environment, UC Berkeley](https://dse.berkeley.edu/),
+**Faculty Director @ [Schmidt Center for Data Science and Environment, UC Berkeley](https://dse.berkeley.edu/) \
 Associate Professor @ [UC Berkeley](https://berkeley.edu)**
 
 Dr. Fernando Pérez is an Associate Professor in Statistics at UC Berkeley and scientist at LBNL.
