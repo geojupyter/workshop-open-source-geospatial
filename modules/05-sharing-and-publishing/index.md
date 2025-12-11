@@ -25,22 +25,6 @@ authors:
 
 # 📢 5 - Sharing & Publishing Your Work
 
-:::{note} 🛝 Slides
-:icon: false
-:class: dropdown
-
-<iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vQ-a3ILv2ZUWfhVsWkUy1torRodOWgz0lGKFSYia2mQ5xia3zvh67rrKSiF7RcWqW2duN6Wy0gE_ano/pubembed?start=false&loop=false&delayms=60000"
-    frameborder="0"
-    width="960"
-    height="569"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
-:::
-
-
 :::{tip} 🧭 Where we are going
 :icon: false
 
@@ -122,7 +106,7 @@ instance with MyST pre-installed.
 CryoCloud also comes with a special configuration for building a MyST site without the
 use of the terminal.
 
-To preview a MyST site in JupyterLab, view instructions at [](../../reference/04-using-myst.md).
+To preview a MyST site in JupyterLab, view instructions in the reference section [](../../reference/04-using-myst.md).
 
 :::{note} The normal way (without JupyterLab)
 :class: dropdown
@@ -156,10 +140,12 @@ process.
 ::::::{hint} Joining late? You may need to clone the workshop repository
 :class: dropdown
 
-If you're joining late, you may have missed a prior instruction to clone the workshop
-website and set up GitHub authentication.
+If you're joining late, you may have missed a prior instruction to start your CryoCloud server,
+clone the workshop website and set up GitHub authentication.
 
-Open a terminal in your CryoCloud JupyterLab server:
+To start your CryoCloud server, visit the reference section [](../../reference/01-starting-your-server.md).
+
+To clone the workshop repository, open a terminal in your CryoCloud JupyterLab server:
 
 ```bash
 cd  # Move to your home directory
@@ -180,7 +166,7 @@ Resolving deltas: 100% (229/229), done.
 ```
 :::
 
-**You'll need to setup GitHub authentication to push to GitHub**, which is required to
+**Finally, you'll need to setup GitHub authentication to push to GitHub**, which is required to
 complete this module.
 Please follow the instructions at [](../../reference/03-gh-auth.md).
 ::::::
@@ -268,7 +254,7 @@ A "Quick setup" section includes a URL you can copy.
 
 #### Clone your repository
 
-From your repository homepage's "Quick start" menu, select "HTTPS", then copy the URL.
+From your repository homepage's "Quick setup" menu, select "HTTPS", then copy the URL.
 
 On your JupyterHub server, open a new terminal.
 

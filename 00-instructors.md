@@ -1,5 +1,16 @@
 # ⭐ Instructors
 
+## [Chelle Gentemann](https://cgentemann.github.io/)
+
+**Program Scientist @ [NASA](https://nasa.gov)**
+
+Dr. Chelle Gentemann is NASA's [Open Science](https://science.nasa.gov/open-science/)
+Program Scientist with 30 years of satellite mission experience, focusing on
+oceanographic remote sensing and climate monitoring from space.
+She leads transformative initiatives in open science, cloud computing, and geospatial
+data accessibility to increase scientific participation and collaboration.
+
+
 ## [Matt Fisher](https://mfisher87.github.io)
 
 **Research Software Engineer @ [Schmidt Center for Data Science and Environment, UC Berkeley](https://dse.berkeley.edu/)**
