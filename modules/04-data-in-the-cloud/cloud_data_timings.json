@@ -28,5 +28,35 @@
         "virtualzarr_icechunk": 1.723680136999974
       }
     }
+  },
+  "local": {
+    "description": "MacBook Pro - Durham, NC",
+    "timestamp": "2025-12-11 12:18:33",
+    "timings": {
+      "open": {
+        "fsspec_default_cache": 1819.1012450830003,
+        "fsspec_block_cache": 278.71061658300096,
+        "obstore": 434.0572458329989,
+        "virtualzarr_icechunk": 2.463514082999609
+      },
+      "spatial_subset_load": {
+        "fsspec_default_cache": 0.6070321250008419,
+        "fsspec_block_cache": 0.052599582999391714,
+        "obstore": 0.7011319169996568,
+        "virtualzarr_icechunk": 2.534569625000586
+      },
+      "time_slice_load": {
+        "fsspec_default_cache": 136.6284629999991,
+        "fsspec_block_cache": 4.599118041998736,
+        "obstore": 26.773726958001134,
+        "virtualzarr_icechunk": 5.418655583000145
+      },
+      "timeseries_load": {
+        "fsspec_default_cache": 0.1992982080009824,
+        "fsspec_block_cache": 19.891594749999058,
+        "obstore": 18.95907412500128,
+        "virtualzarr_icechunk": 1.2114160420005646
+      }
+    }
   }
 }
