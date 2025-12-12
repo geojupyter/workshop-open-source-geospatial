@@ -60,7 +60,7 @@ server and having to rerun your analysis.**
 3) Sit back and learn about each of the tools!
     - How to bring your own environment
     - JupyterHub options and viewing setup
-    - Github
+    - GitHub
     - Virtual Linux desktop
     - SyncThing
     - Viewing and editing of different files
