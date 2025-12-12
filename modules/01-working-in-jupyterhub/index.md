@@ -225,7 +225,7 @@ To do this:
    cd yourfoldername
    ```
 
-3. Now clone the hackweek code into your current directory:
+3. Now clone the workshop code into your current directory:
 
    ```
    https://github.com/geojupyter/workshop-open-source-geospatial.git
