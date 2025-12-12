@@ -102,7 +102,7 @@ A Docker tag tells CryoCloud which exact environment to use. You can choose tags
 
 ### Option A: Use an older or alternate CryoCloud environment
 
-CryoCloud publishes its Python environment image to Quay.io.
+CryoCloud publishes its Python environment image to Quay.io, Red Hat’s hosted container image registry service which is free for publicly accessible container images.
 
 1. Visit the repository tags page:
    https://quay.io/repository/cryointhecloud/cryo-hub-image?tab=tags
