@@ -28,6 +28,6 @@ Resolving deltas: 100% (229/229), done.
 :::
 
 **Finally, you'll need to setup GitHub authentication to push to GitHub**, which is required to
-complete this module.
+complete some modules (e.g. module 5).
 Please follow the instructions at [](../../reference/03-gh-auth.md).
 ::::::
