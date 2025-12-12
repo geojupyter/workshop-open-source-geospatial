@@ -18,17 +18,21 @@ authors:
 
 # 🪐 6 - GeoJupyter
 
-:::{note} 🛝 Slides
+:::{tip} 🧭 Where we are going
 :icon: false
-:class: dropdown
 
-<iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vQ2lRsEcFIvUy-M4L4fhkJzEmjwc7UJVGViyH9EW_6NtCgCeHDgUwjB_xSrdiGTapxd0u6ukb4ZS4XT/pubembed?start=false&loop=false&delayms=60000"
-    frameborder="0"
-    width="960"
-    height="569"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+In this tutorial we will explore the functionality of JupyterGIS and how it can
+integrate with a real analysis workflow.
+:::
+
+We'll work through this module together in a Jupyter Notebook!
+
+# TODO: Joining late?
+
+Open the `demo.md` notebook in the Module 6 directory within the workshop repository.
+On your CryoCloud server, it should be at
+`workshop-open-source-geospatial/modules/06-geojupyter/demo.ipynb`.
+
+:::{hint}
+We recommend sizing your server at 4GB for this Notebook.
 :::
