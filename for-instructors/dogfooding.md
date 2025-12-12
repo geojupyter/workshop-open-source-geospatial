@@ -10,9 +10,9 @@ our users will use on the day of the workshop.
 
 You'll need to be familiar with the following processes:
 
-* [](../reference/01-starting-your-server.md)
-* [](../reference/02-stopping-your-server.md)
-* [](../reference/03-gh-auth.md)
+* [](/reference/01-starting-your-server.md)
+* [](/reference/02-stopping-your-server.md)
+* [](/reference/03-gh-auth.md)
 
 Once you've set up GitHub authentication, you can use Git normally.
 
@@ -23,7 +23,7 @@ We have installed
 [`jupyter-myst-build-proxy`](https://github.com/ryanlovett/jupyter-myst-build-proxy)
 which builds the MyST site on-demand.
 
-See [](../reference/04-using-myst.md) for instructions.
+See [](/reference/04-using-myst.md) for instructions.
 
 
 ### Tradeoffs

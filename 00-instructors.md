@@ -10,6 +10,18 @@ oceanographic remote sensing and climate monitoring from space.
 She leads transformative initiatives in open science, cloud computing, and geospatial
 data accessibility to increase scientific participation and collaboration.
 
+## [Fernando Perez](https://fernandoperez.org/)
+
+**Faculty Director @ [Schmidt Center for Data Science and Environment, UC Berkeley](https://dse.berkeley.edu/) \
+Associate Professor @ [UC Berkeley](https://berkeley.edu)**
+
+Dr. Fernando Pérez is an Associate Professor in Statistics at UC Berkeley and scientist at LBNL.
+He builds open source tools for humans to use computers as companions in thinking and
+collaboration, mostly in the scientific Python ecosystem (IPython, Jupyter & friends).
+A computational physicist by training, his research interests include questions at the
+nexus of software and geoscience, seeking to build the computational and data ecosystem
+to tackle problems like climate change with collaborative, open, reproducible, and
+extensible scientific practices.
 
 ## [Matt Fisher](https://mfisher87.github.io)
 

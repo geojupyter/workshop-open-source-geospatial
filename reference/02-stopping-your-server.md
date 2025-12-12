@@ -11,7 +11,7 @@ Your "Hub Control Panel" allows you to manage your server.
 
 To access the control panel, click **File**, then **Hub Control Panel**.
 
-![](../assets/images/cryocloud-hub-control-panel.png)
+![](/assets/images/cryocloud-hub-control-panel.png)
 
 Click **Stop My Server**, and wait a few seconds.
 Once your server is stopped, the **Stop My Server** button will disappear.
