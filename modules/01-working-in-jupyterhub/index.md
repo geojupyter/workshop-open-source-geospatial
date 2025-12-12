@@ -208,7 +208,7 @@ After the image is built once, you can easily select it again in future sessions
 
 ## Task: Clone the CryoCloud jupyterbook
 
-We will import the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
+We will clone (e.g. make a local copy of) the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
 
 To do this:
 1. Select the plus (`+`) sign above the `File Browser` to the left, which will bring up a `Launcher` window.
