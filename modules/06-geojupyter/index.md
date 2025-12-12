@@ -27,7 +27,8 @@ integrate with a real analysis workflow.
 
 We'll work through this module together in a Jupyter Notebook!
 
-# TODO: Joining late?
+:::{include} /joining-late.md
+:::
 
 Open the `demo.md` notebook in the Module 6 directory within the workshop repository.
 On your CryoCloud server, it should be at
