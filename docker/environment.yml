@@ -71,10 +71,6 @@ dependencies:
   - "ruff"
   - "pre-commit"
 
-  # Dependency management
-  - "uv"
-  - "pixi"
-
   # GitHub utilities
   - "gh"
   - "gh-scoped-creds"
