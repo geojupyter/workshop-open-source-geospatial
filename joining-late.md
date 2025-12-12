@@ -4,7 +4,7 @@
 If you're joining late, you may have missed a prior instruction to start your CryoCloud server,
 clone the workshop website and set up GitHub authentication.
 
-To start your CryoCloud server, visit the reference section [](../../reference/01-starting-your-server.md).
+To start your CryoCloud server, visit the reference section [](/reference/01-starting-your-server.md).
 
 To clone the workshop repository, open a terminal in your CryoCloud JupyterLab server:
 
@@ -29,5 +29,5 @@ Resolving deltas: 100% (229/229), done.
 
 **Finally, you'll need to setup GitHub authentication to push to GitHub**, which is required to
 complete some modules (e.g. module 5).
-Please follow the instructions at [](../../reference/03-gh-auth.md).
+Please follow the instructions at [](/reference/03-gh-auth.md).
 ::::::

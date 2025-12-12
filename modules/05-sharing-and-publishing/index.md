@@ -106,7 +106,7 @@ instance with MyST pre-installed.
 CryoCloud also comes with a special configuration for building a MyST site without the
 use of the terminal.
 
-To preview a MyST site in JupyterLab, view instructions in the reference section [](../../reference/04-using-myst.md).
+To preview a MyST site in JupyterLab, view instructions in the reference section [](/reference/04-using-myst.md).
 
 :::{note} The normal way (without JupyterLab)
 :class: dropdown
