@@ -17,8 +17,7 @@ you'll be presented with a screen like this:
 Select:
 
 * **Environment**: "Other..."
-* **Custom image**: `ghcr.io/geojupyter/workshop-open-source-geospatial:latest`
-    * TODO: Update `latest` to a fixed tag
+* **Custom image**: `ghcr.io/geojupyter/workshop-open-source-geospatial:8eabb8487128`
 * **Resource allocation**: "~4GB RAM, ~0.5 CPUs"
 
 :::{important}
