@@ -628,8 +628,8 @@ More information is available on the
 * MyST documents can be built to multiple output formats, including PDFs.
 * Frontmatter is YAML metadata on a Markdown document that can tell MyST which documents
   should be built as PDF.
-* [Typst](https://typst.app/) can be used as an alternative document engine to
-  $ \LaTeX $ for rendering PDFs by specifying `export.format: "typst"` in the frontmatter.
+* [Typst](https://typst.app/) can be used to render PDFs by specifying `export.format:
+  "typst"` in the frontmatter. $ \LaTeX $ is also an available option!
 * If you opened the collapsed section on quoting YAML, you know the author of this
   document has been burned too many times. **Quote your strings**! 😁
 
