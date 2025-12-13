@@ -646,7 +646,9 @@ GitHub Pages is, as it sounds, a GitHub-native solution for hosting web pages.
 It doesn't offer any advanced features, it only enables building a website from a GitHub
 repository.
 
-Pages are built using [GitHub Actions](https://github.com/features/actions).
+Pages are built using [GitHub Actions](https://github.com/features/actions), a tool for
+triggering processes automatically in response to changes or other events in a GitHub
+repository.
 
 
 ### [ReadTheDocs](https://about.readthedocs.com/)
