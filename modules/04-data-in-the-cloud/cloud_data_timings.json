@@ -1,0 +1,62 @@
+{
+  "cloud": {
+    "description": "JupyterHub - us-west-2",
+    "timestamp": "2025-12-11 16:08:23",
+    "timings": {
+      "open": {
+        "fsspec_default_cache": 467.4452876969999,
+        "fsspec_block_cache": 65.81539951800005,
+        "obstore": 127.15990847400008,
+        "virtualzarr_icechunk": 2.579058487000111
+      },
+      "spatial_subset_load": {
+        "fsspec_default_cache": 0.6042853349999859,
+        "fsspec_block_cache": 0.025397076999979618,
+        "obstore": 0.2673111340000105,
+        "virtualzarr_icechunk": 2.010724728000241
+      },
+      "time_slice_load": {
+        "fsspec_default_cache": 30.614898986999833,
+        "fsspec_block_cache": 2.269339702999787,
+        "obstore": 7.793771065999863,
+        "virtualzarr_icechunk": 2.974931951999679
+      },
+      "timeseries_load": {
+        "fsspec_default_cache": 0.2537525479992837,
+        "fsspec_block_cache": 4.6087899290005225,
+        "obstore": 8.809160454999983,
+        "virtualzarr_icechunk": 1.723680136999974
+      }
+    }
+  },
+  "local": {
+    "description": "MacBook Pro - Durham, NC",
+    "timestamp": "2025-12-11 12:18:33",
+    "timings": {
+      "open": {
+        "fsspec_default_cache": 1819.1012450830003,
+        "fsspec_block_cache": 278.71061658300096,
+        "obstore": 434.0572458329989,
+        "virtualzarr_icechunk": 2.463514082999609
+      },
+      "spatial_subset_load": {
+        "fsspec_default_cache": 0.6070321250008419,
+        "fsspec_block_cache": 0.052599582999391714,
+        "obstore": 0.7011319169996568,
+        "virtualzarr_icechunk": 2.534569625000586
+      },
+      "time_slice_load": {
+        "fsspec_default_cache": 136.6284629999991,
+        "fsspec_block_cache": 4.599118041998736,
+        "obstore": 26.773726958001134,
+        "virtualzarr_icechunk": 5.418655583000145
+      },
+      "timeseries_load": {
+        "fsspec_default_cache": 0.1992982080009824,
+        "fsspec_block_cache": 19.891594749999058,
+        "obstore": 18.95907412500128,
+        "virtualzarr_icechunk": 1.2114160420005646
+      }
+    }
+  }
+}

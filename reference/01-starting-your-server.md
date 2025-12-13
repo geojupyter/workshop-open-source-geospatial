@@ -12,13 +12,17 @@ exist after you stop and restart your server.**
 Once you're logged in to [the CryoCloud JupyterHub](https://hub.cryointhecloud.com),
 you'll be presented with a screen like this:
 
-![](../assets/images/cryocloud-server-options.png)
+![](/assets/images/cryocloud-server-options.png)
 
 Select:
 
 * **Environment**: "Other..."
-* **Custom image**: `ghcr.io/geojupyter/workshop-open-source-geospatial:latest`
-    * TODO: Update `latest` to a fixed tag
+* **Custom image**:
+
+  ```
+  ghcr.io/geojupyter/workshop-open-source-geospatial:8eabb8487128
+  ```
+
 * **Resource allocation**: "~4GB RAM, ~0.5 CPUs"
 
 :::{important}
@@ -38,6 +42,6 @@ using it.
 When you click start, CryoCloud will begin creating your personal server.
 You should see a progress bar like this:
 
-![](../assets/images/cryocloud-server-starting.png)
+![](/assets/images/cryocloud-server-starting.png)
 
 After a few moments, you'll be presented with the JupyterLab interface.

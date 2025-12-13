@@ -25,22 +25,6 @@ authors:
 
 # 📢 5 - Sharing & Publishing Your Work
 
-:::{note} 🛝 Slides
-:icon: false
-:class: dropdown
-
-<iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vQ-a3ILv2ZUWfhVsWkUy1torRodOWgz0lGKFSYia2mQ5xia3zvh67rrKSiF7RcWqW2duN6Wy0gE_ano/pubembed?start=false&loop=false&delayms=60000"
-    frameborder="0"
-    width="960"
-    height="569"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
-:::
-
-
 :::{tip} 🧭 Where we are going
 :icon: false
 
@@ -122,7 +106,7 @@ instance with MyST pre-installed.
 CryoCloud also comes with a special configuration for building a MyST site without the
 use of the terminal.
 
-To preview a MyST site in JupyterLab, view instructions at [](../../reference/04-using-myst.md).
+To preview a MyST site in JupyterLab, view instructions in the reference section [](/reference/04-using-myst.md).
 
 :::{note} The normal way (without JupyterLab)
 :class: dropdown
@@ -153,37 +137,8 @@ This workshop's materials are built with MyST.
 We'll build this premade website together on CryoCloud so you can get used to the
 process.
 
-::::::{hint} Joining late? You may need to clone the workshop repository
-:class: dropdown
-
-If you're joining late, you may have missed a prior instruction to clone the workshop
-website and set up GitHub authentication.
-
-Open a terminal in your CryoCloud JupyterLab server:
-
-```bash
-cd  # Move to your home directory
-git clone https://github.com/geojupyter/workshop-open-source-geospatial.git
-```
-
-:::{youShouldNotice}
-...this command produces output like:
-
-```
-Cloning into 'workshop-open-source-geospatial'...
-remote: Enumerating objects: 417, done.
-remote: Counting objects: 100% (178/178), done.
-remote: Compressing objects: 100% (101/101), done.
-remote: Total 417 (delta 136), reused 97 (delta 77), pack-reused 239 (from 2)
-Receiving objects: 100% (417/417), 1.13 MiB | 7.21 MiB/s, done.
-Resolving deltas: 100% (229/229), done.
-```
+:::{include} /joining-late.md
 :::
-
-**You'll need to setup GitHub authentication to push to GitHub**, which is required to
-complete this module.
-Please follow the instructions at [](../../reference/03-gh-auth.md).
-::::::
 
 
 #### Navigate to the correct directory in the file browser
@@ -268,7 +223,7 @@ A "Quick setup" section includes a URL you can copy.
 
 #### Clone your repository
 
-From your repository homepage's "Quick start" menu, select "HTTPS", then copy the URL.
+From your repository homepage's "Quick setup" menu, select "HTTPS", then copy the URL.
 
 On your JupyterHub server, open a new terminal.
 
