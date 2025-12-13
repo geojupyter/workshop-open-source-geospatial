@@ -734,8 +734,15 @@ PDF.
 When you download your PDF, it looks exactly like the PDF you built manually earlier!
 :::
 
-If your deploy failed, click the "deploy" node to view the error logs.
-See if you can solve the error on your own, and let an instructor know if you need help!
+:::{attention} My "deploy" Action failed!
+:class: dropdown
+
+![](./github-actions-deploy-failed.jpg)
+
+If your deploy Action failed, click the "deploy" node to view the error logs.
+See if you can decipher the error message and solve the problem on your own, and let an
+instructor know if you need help!
+:::
 
 
 #### Display your GitHub Pages URL on your repository homepage
