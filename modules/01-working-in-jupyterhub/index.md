@@ -206,7 +206,7 @@ After the image is built once, you can easily select it again in future sessions
 
 ---
 
-## Task: Clone the CryoCloud jupyterbook
+## Task: Clone the workshop website
 
 We will clone (e.g. make a local copy of) the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
 
