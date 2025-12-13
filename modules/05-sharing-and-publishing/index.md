@@ -41,7 +41,8 @@ MyST (Markedly Structured Text) is both a language and a software tool.
 
 ### MyST, the language
 
-MyST, as a language, extends Markdown.
+MyST, as a language, is a flavor or dialect of Markdown optimized for technical
+publishing.
 
 It adds new syntax, including
 ["roles" and "directives"](https://mystmd.org/guide/quickstart-myst-markdown#directives-and-roles)
