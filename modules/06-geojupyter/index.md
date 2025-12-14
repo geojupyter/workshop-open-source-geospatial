@@ -30,7 +30,7 @@ We'll work through this module together in a Jupyter Notebook!
 :::{include} /joining-late.md
 :::
 
-Open the `demo.md` notebook in the Module 6 directory within the workshop repository.
+Open the `demo.ipynb` notebook in the Module 6 directory within the workshop repository.
 On your CryoCloud server, it should be at
 `workshop-open-source-geospatial/modules/06-geojupyter/demo.ipynb`.
 
