@@ -20,7 +20,7 @@ Select:
 * **Custom image**:
 
   ```
-  ghcr.io/geojupyter/workshop-open-source-geospatial:8eabb8487128
+  ghcr.io/geojupyter/workshop-open-source-geospatial:49c652c66d31
   ```
 
 * **Resource allocation**: "~4GB RAM, ~0.5 CPUs"
