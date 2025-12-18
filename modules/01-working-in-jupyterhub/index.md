@@ -238,11 +238,15 @@ To do this:
    click on `index.md`.
    This should open up this tutorial in case you want to review it in the future.
 
+---
 
-Now after the demo...
+## Task: Activate GitHub authentication
 
+Let's do a quick GitHub authentication to make our lives easier as we access different repositories. This authentication will last 8 hours or until you finish your session, then you will need to do it again if you want to re-authenticate. Instructions are here: [github-auth](https://agu2025.workshops.geojupyter.org/reference/gh-auth/).
 
 ---
+
+Now after the demo...
 
 ## Shutting down your JupyterHub
 
