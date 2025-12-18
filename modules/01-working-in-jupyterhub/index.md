@@ -233,7 +233,7 @@ To do this:
 3. Now clone the workshop code into your current directory:
 
    ```
-   https://github.com/geojupyter/workshop-open-source-geospatial.git
+   git clone https://github.com/geojupyter/workshop-open-source-geospatial.git
    ```
 
 4. You will see the folder pop into your `File Browser` on the left if you have the current directory open.
