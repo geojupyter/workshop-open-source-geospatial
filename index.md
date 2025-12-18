@@ -10,12 +10,6 @@ The GeoJupyter community is hosting a total of 4 events; you can learn more at t
 
 **Where**: New Orleans Convention Center rooms 333-334
 
-:::{attention} 🏗️  Under development
-:icon: false
-
-These materials are under development and subject to change all the way until
-AGU!
-:::
 
 ## Workshop abstract
 

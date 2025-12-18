@@ -1,12 +1,5 @@
 # ⌚ Schedule
 
-:::{attention} 🏗️ Under development
-:icon: false
-
-These materials are under development and subject to change all the way until
-AGU!
-:::
-
 ## 🍽️ Breakfast! (8:00-9:00)
 
 Breakfast will be provided in the room.
@@ -25,6 +18,7 @@ Vegetarian options will be available and all ingredients will be listed.
 | 10:35 AM | 10 minutes | **Break**                                     |              |
 | 10:45 AM | 60 minutes | [](modules/03-integrating-ai/index.ipynb)     | Qiusheng     |
 | 11:45 AM | 15 minutes | **Q&A**                                       | All          |
+
 
 ## 🍽️ Lunch! (12:00 - 1:30)
 
