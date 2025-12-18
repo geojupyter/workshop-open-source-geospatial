@@ -1,9 +1,11 @@
 ---
 subject: "Tutorial"
 authors:
-  - name: "Fernando Perez"
+  - name: "Fernando Pérez"
     affiliations:
       - "University of California, Berkeley"
+      - "Department of Statistics"
+      - "Berkeley Institute for Data Science"
       - "Schmidt Center for Data Science and Environment"
     equal_contributor: true
     email: "fernando.perez@berkeley.edu"
@@ -42,9 +44,13 @@ MyST (Markedly Structured Text) is both a language and a software tool.
 ### MyST, the language
 
 MyST, as a language, is a flavor or dialect of Markdown optimized for technical
-publishing.
+publishing.  The name stands for "Markedly Structured Text", which is a play on the idea that:
 
-It adds new syntax, including
+- Its core syntax is Markdown, so it can be indeed seen as a Markdown dialect.
+- It borrows the programmatic extensibility of [reStructuredText](https://docutils.sourceforge.io/rst.html) via the notion of roles and directives.
+- It's part of Jupyter! (Under the broader [JupyterBook official subproject](https://jupyterbook.org/stable/)).
+
+MyST adds new syntax, including
 ["roles" and "directives"](https://mystmd.org/guide/quickstart-myst-markdown#directives-and-roles)
 that enable advanced functionality like
 [executable code cells](https://mystmd.org/guide/notebooks-with-markdown#code-cell),
@@ -55,9 +61,8 @@ There is also dedicated syntax for
 [math](https://mystmd.org/guide/math),
 and more.
 
-Directives are like functions that can receive Markdown content, for example an
-callout's text. Roles are just like directives, except they are _inline_ with other
-Markdown text.
+**Directives** are like functions that can receive Markdown content, for example a
+callout's text, and they can take additional keyword arguments. **Roles** are similar to directives, except they are _inline_ with other Markdown text, and thus are best suited for small fragments of text (and ideally should have relatively short names to improve readability of the source document).
 
 Let's jump right into a quick example of how this functionality works.
 
@@ -82,11 +87,11 @@ Directives can include **_rich_** Markdown content.
 Try hovering over the word "Term" to see a definition.
 ```
 
+As a little side note, the above live demo box is _itself_ implemented as a MyST directive, appropriately called `myst` 😃! It gives you a live MyST preview box that runs in the document itself. Since the underlying
 
 ##### 🧠 What do we know now?
 
-The `{glossary}` role enables defining terms, and the `{term}` role enables referencing
-terms.
+The `{glossary}` role enables defining terms, and the `{term}` role lets you reference them from other locations, providing an overlay display of the definition on hover.
 
 
 ### MySTMD, the software
@@ -163,8 +168,9 @@ Right click this file and select the top option from the menu: "Build MyST Proje
 :::{youShouldNotice}
 ...a new browser tab opens with a loading spinner and the title "Building MyST Site".
 
-After around 5 seconds, the build will complete and the website content will display
-automatically.
+After around 50 seconds, the build will complete and the website content will display
+automatically.  Subsequent rebuilds are faster as they don't need to download some needed templates.
+Note that this timing is on our hub, where cloud disk access is a bit slower. On a laptop with a local disk, the first build takes on the order of 15-20 seconds.
 
 At the top-left is the website title: "Open Source Geospatial Workflows in the Cloud".
 At the top-right is a button with the text "Rebuild".
@@ -333,6 +339,8 @@ MyST offers many useful features for technical publishing, including
 [asides](https://mystmd.org/guide/asides),
 [dropdowns, grids, tabs, cards, buttons](https://mystmd.org/guide/dropdowns-cards-and-tabs),
 [glossaries](https://mystmd.org/guide/glossaries-and-terms), and more.
+
+The design of MyST and all these features was heavily informed by discussions in the working groups of the [_AGU_Notebooks Now!_](https://data.agu.org/notebooks-now/) initiative, with the goal of making it possible to publish an arbitrarily complex, modern scientific manuscript aimed at peer-reviewed publication, entirely with MyST formatting for the source of `.md` files or `.ipynb` Jupyter Notebooks.
 
 Try out some of these features in your MyST site.
 
@@ -510,7 +518,7 @@ authors:
     # orcid: "0000-0000-0000-0000"
 export:
   - format: "typst"
-    template: "plain_typst_book"
+    template: "lapreprint-typst"
     output: "paper.pdf"
 ---
 
@@ -604,7 +612,7 @@ Double-click `paper.pdf` in the JupyterLab file browser.
 
 :::{youShouldNotice}
 ...the content is fairly simple.
-There is a title page, a blank table of contents, and then your content on the 3rd page.
+This is a template meant to produce preprints, so all the content is in one page, without page breaks.
 :::
 
 :::{gitCommitCheckpoint} Add PDF export
@@ -613,10 +621,10 @@ There is a title page, a blank table of contents, and then your content on the 3
 :::{note} Other PDF templates
 :class: dropdown
 
-This document was rendered with the `"plain_typst_book"` template.
-Other PDF template options are available!
+This document was rendered with the `"lapreprint-typst"` template.
+Other PDF template options are available! You can try for example changing to the `plain_typst_book` template, and that will break up the content into several pages.
 
-Try running `myst templates list --typst` to see a list of available templates.
+Try running `myst templates list --typst` to see a list of available templates. [This GitHub repository](https://github.com/myst-templates) is where they are hosted and listed.
 
 More information is available on the
 [official MyST PDF-building documentation](https://mystmd.org/guide/creating-pdf-documents).
@@ -890,7 +898,7 @@ authors:
     orcid: "0000-0003-3260-5445"
 export:
   - format: "typst"
-    template: "plain_typst_book"
+    template: "lapreprint-typst"
     output: "paper.pdf"
   - format: "cff"
 ---
