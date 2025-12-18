@@ -13,19 +13,10 @@ authors:
 # ❄️ 1 - Working in JupyterHub with CryoCloud
 
 :::{note} 🛝 Slides
-:icon: false
-:class: dropdown
-
-<iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vStqGZj7fQltfj2SQjS1L8K9KGTDNk8E-bIAQWBu2xvx66eQpsDZCNb0DHl0d3eJBXTmMEmc32dj4Nc/pubembed?start=false&loop=false&delayms=60000"
-    frameborder="0"
-    width="960"
-    height="569"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+```{iframe} https://bit.ly/48DBo8D
+:class: w-full
 :::
+
 
 :::{tip} Learning Objectives
 - Learn how to access and use CryoCloud
@@ -34,7 +25,7 @@ authors:
 :::
 
 
-## Access the [CryoCloud powerpoint](https://docs.google.com/presentation/d/1BRWaZUEfBJlKA9WL7jIdL_4jlQ24wohS_GNjYJCFliw/edit?usp=sharing) whenever you need to reference it
+## Access the [CryoCloud powerpoint](https://bit.ly/48DBo8D) whenever you need to reference it
 
 Open the powerpoint by directly clicking on the hyperlink above.
 
@@ -62,7 +53,6 @@ server and having to rerun your analysis.**
     - JupyterHub options and viewing setup
     - GitHub
     - Virtual Linux desktop
-    - SyncThing
     - Viewing and editing of different files
 
 ---
@@ -102,7 +92,7 @@ A Docker tag tells CryoCloud which exact environment to use. You can choose tags
 
 ### Option A: Use an older or alternate CryoCloud environment
 
-CryoCloud publishes its Python environment image to Quay.io, Red Hat’s hosted container image registry service which is free for publicly accessible container images.
+CryoCloud publishes its Python environment image to Quay.io, Red Hat’s hosted container image registry service that is free for publicly accessible container images.
 
 1. Visit the repository tags page:
    https://quay.io/repository/cryointhecloud/cryo-hub-image?tab=tags
@@ -208,7 +198,7 @@ After the image is built once, you can easily select it again in future sessions
 
 ## Task: Clone the workshop website
 
-We will clone (e.g. make a local copy of) the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
+We will clone (i.e. make a local copy of) the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
 
 To do this:
 1. Select the plus (`+`) sign above the `File Browser` to the left, which will bring up a `Launcher` window.
@@ -217,7 +207,7 @@ To do this:
    This is your command line like you would have on any computer.
 
    Before cloning the repo, you have the option to switch to another file folder using
-   the _change directory_ terminal command: `cd folder` if you do not want the Hackweek
+   the _change directory_ terminal command: `cd folder` if you do not want the workshop
    repo in your current directory (you can check which directory you are currently in
    using _print working directory_ command: `pwd`).
 
