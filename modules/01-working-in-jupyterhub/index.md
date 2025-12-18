@@ -207,7 +207,7 @@ After the image is built once, you can easily select it again in future sessions
 
 ## Task: Start a CryoCloud server
 
-Follow the instructions in our reference page [](/references/01-starting-your-server.md)
+Follow the instructions in our reference page [](/reference/01-starting-your-server.md)
 to start a server on CryoCloud using the official workshop image!
 
 
@@ -267,7 +267,7 @@ After 90 minutes of no use, it will shut down.
 We prefer you shut down the server when so we save that 90 minutes of computing cost.
 
 To do so, follow the instructions on our reference page
-[](/references/02-stopping-your-server.md).
+[](/reference/02-stopping-your-server.md).
 
 ---
 
