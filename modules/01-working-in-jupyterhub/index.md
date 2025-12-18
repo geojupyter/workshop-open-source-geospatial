@@ -13,6 +13,7 @@ authors:
 # ❄️ 1 - Working in JupyterHub with CryoCloud
 
 :::{note} 🛝 Slides
+:class: dropdown
 
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vStqGZj7fQltfj2SQjS1L8K9KGTDNk8E-bIAQWBu2xvx66eQpsDZCNb0DHl0d3eJBXTmMEmc32dj4Nc/pubembed?start=false&loop=false&delayms=60000"
@@ -23,6 +24,7 @@ authors:
     mozallowfullscreen="true"
     webkitallowfullscreen="true">
 </iframe>
+:::
 
 
 :::{tip} Learning Objectives
@@ -239,7 +241,7 @@ To do this:
 
 ## Task: Activate GitHub authentication
 
-Let's do a quick GitHub authentication to make our lives easier as we access different repositories. This authentication will last 8 hours or until you finish your session, then you will need to do it again if you want to re-authenticate. Instructions are here: [github-auth](https://agu2025.workshops.geojupyter.org/reference/gh-auth/).
+Let's do a quick GitHub authentication to make our lives easier as we access different repositories. This authentication will last 8 hours or until you finish your session, then you will need to do it again if you want to re-authenticate. Instructions are here: [](/reference/03-gh-auth.md).
 
 ---
 
