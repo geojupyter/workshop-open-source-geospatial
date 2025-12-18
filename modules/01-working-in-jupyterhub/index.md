@@ -13,6 +13,7 @@ authors:
 # ❄️ 1 - Working in JupyterHub with CryoCloud
 
 :::{note} 🛝 Slides
+:class: dropdown
 
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vStqGZj7fQltfj2SQjS1L8K9KGTDNk8E-bIAQWBu2xvx66eQpsDZCNb0DHl0d3eJBXTmMEmc32dj4Nc/pubembed?start=false&loop=false&delayms=60000"
@@ -23,6 +24,7 @@ authors:
     mozallowfullscreen="true"
     webkitallowfullscreen="true">
 </iframe>
+:::
 
 
 :::{tip} Learning Objectives
