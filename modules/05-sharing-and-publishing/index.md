@@ -41,7 +41,8 @@ MyST (Markedly Structured Text) is both a language and a software tool.
 
 ### MyST, the language
 
-MyST, as a language, extends Markdown.
+MyST, as a language, is a flavor or dialect of Markdown optimized for technical
+publishing.
 
 It adds new syntax, including
 ["roles" and "directives"](https://mystmd.org/guide/quickstart-myst-markdown#directives-and-roles)
@@ -285,6 +286,11 @@ Hello, world!
 $$
 1 + 1 = 2
 $$
+
+:::{note} Click Me! 👈
+:class: dropdown
+👋 Wow! MyST is fun and cool!
+:::
 ```
 
 The `$$` symbols delimit a math equation, and you can write any $ \LaTeX $ within.
@@ -622,8 +628,8 @@ More information is available on the
 * MyST documents can be built to multiple output formats, including PDFs.
 * Frontmatter is YAML metadata on a Markdown document that can tell MyST which documents
   should be built as PDF.
-* [Typst](https://typst.app/) can be used as an alternative document engine to
-  $ \LaTeX $ for rendering PDFs by specifying `export.format: "typst"` in the frontmatter.
+* [Typst](https://typst.app/) can be used to render PDFs by specifying `export.format:
+  "typst"` in the frontmatter. $ \LaTeX $ is also an available option!
 * If you opened the collapsed section on quoting YAML, you know the author of this
   document has been burned too many times. **Quote your strings**! 😁
 
@@ -640,7 +646,9 @@ GitHub Pages is, as it sounds, a GitHub-native solution for hosting web pages.
 It doesn't offer any advanced features, it only enables building a website from a GitHub
 repository.
 
-Pages are built using [GitHub Actions](https://github.com/features/actions).
+Pages are built using [GitHub Actions](https://github.com/features/actions), a tool for
+triggering processes automatically in response to changes or other events in a GitHub
+repository.
 
 
 ### [ReadTheDocs](https://about.readthedocs.com/)
@@ -726,8 +734,15 @@ PDF.
 When you download your PDF, it looks exactly like the PDF you built manually earlier!
 :::
 
-If your deploy failed, click the "deploy" node to view the error logs.
-See if you can solve the error on your own, and let an instructor know if you need help!
+:::{attention} My "deploy" Action failed!
+:class: dropdown
+
+![](./github-actions-deploy-failed.jpg)
+
+If your deploy Action failed, click the "deploy" node to view the error logs.
+See if you can decipher the error message and solve the problem on your own, and let an
+instructor know if you need help!
+:::
 
 
 #### Display your GitHub Pages URL on your repository homepage

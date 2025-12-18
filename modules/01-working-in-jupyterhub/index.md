@@ -17,7 +17,7 @@ authors:
 :class: dropdown
 
 <iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vQHM2_0pwRCghPvFFHDvH-KMzD5seeR2D9NkPrFWPyPBSJBsN50uIc81x6rDthVIyroOXqH5rRKPZL7/pubembed?start=false&loop=false&delayms=60000"
+    src="https://docs.google.com/presentation/d/e/2PACX-1vStqGZj7fQltfj2SQjS1L8K9KGTDNk8E-bIAQWBu2xvx66eQpsDZCNb0DHl0d3eJBXTmMEmc32dj4Nc/pubembed?start=false&loop=false&delayms=60000"
     frameborder="0"
     width="960"
     height="569"
