@@ -13,9 +13,16 @@ authors:
 # ❄️ 1 - Working in JupyterHub with CryoCloud
 
 :::{note} 🛝 Slides
-```{iframe} https://bit.ly/48DBo8D
-:class: w-full
-:::
+
+<iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vStqGZj7fQltfj2SQjS1L8K9KGTDNk8E-bIAQWBu2xvx66eQpsDZCNb0DHl0d3eJBXTmMEmc32dj4Nc/pubembed?start=false&loop=false&delayms=60000"
+    frameborder="0"
+    width="960"
+    height="569"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true">
+</iframe>
 
 
 :::{tip} Learning Objectives
