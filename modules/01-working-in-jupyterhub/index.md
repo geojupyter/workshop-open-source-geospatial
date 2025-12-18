@@ -205,6 +205,12 @@ After the image is built once, you can easily select it again in future sessions
 
 ---
 
+## Task: Start a CryoCloud server
+
+Follow the instructions in our reference page [](/references/01-starting-your-server.md)
+to start a server on CryoCloud using the official workshop image!
+
+
 ## Task: Clone the workshop website
 
 We will clone (i.e. make a local copy of) the [workshop repository](https://github.com/geojupyter/workshop-open-source-geospatial.git).
@@ -260,17 +266,8 @@ Time on the JupyterHub costs money and there are systems in place to make sure y
 After 90 minutes of no use, it will shut down.
 We prefer you shut down the server when so we save that 90 minutes of computing cost.
 
-To do so:
-
-- In upper left, click on `File` > `Hub Control Panel`, which will open another tab
-- Click the red `Stop Server` button. Once this button disappears after you clicked it, your server is off.
-- Click `Log Out` in the top right of your screen and you will be logged out, or you can start a new server
-- You can now close this tab and the other tab where you were just working
-
-```{image} ./stop_server.png
-:width: 70%
-:align: center
-```
+To do so, follow the instructions on our reference page
+[](/references/02-stopping-your-server.md).
 
 ---
 
